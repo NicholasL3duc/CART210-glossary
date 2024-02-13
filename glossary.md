@@ -10,36 +10,29 @@ For each keyword, cite at least three references. Ensure that at least two of th
 To make your contributions and suggest changes, follow the instructions in the repository's [README](https://github.com/concordia-dcart/CART210-glossary/blob/main/README.md) file.
 
 ---
-## GAN
-
-Generative adversarial networks (GANs) enable the learning of deep representations without the need 
-for significant training data annotation[^wang10GAN]. They do this by generating backpropagation signals via a 
-rival approach involving two networks meshing together[^Creswell10GAN]. Generative adversarial networks (GANs) 
-are a form of artificial intelligence that can create new instances based on patterns discovered in data. They 
-excel in creating realistic, high-quality photographs[^goodfellow10GAN]. Essentially, GANs recognize the likelihood of various 
-attributes happening in a dataset and utilize that information to generate new, comparable instances[^goodfellow10GAN]. This makes 
-them more successful than other approaches that produce pictures using deep learning, a form of sophisticated machine 
-learning methodology[^goodfellow10GAN].
-
-[^wang10GAN]: Wang, K., C. Gou, Y. Duan, Y. Lin, X. Zheng, and F. -Y. Wang. 
-"Generative adversarial networks: Introduction and outlook." IEEE/CAA Journal of Automatica Sinica 4, 
-no. 4 (2017): 588-598. doi: 10.1109/JAS.2017.7510583.
-
-[^Creswell10GAN]: Creswell, A., T. White, V. Dumoulin, K. Arulkumaran, B. Sengupta, and A. A. Bharath. "Generative Adversarial 
-Networks: An Overview." IEEE Signal Processing Magazine 35, no. 1 (January 2018): 53-65. doi: 10.1109/MSP.2017.2765202.
-
-[^goodfellow10GAN]: Goodfellow, I. J., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair, S., Courville, A., & Bengio, Y. (2020).
-Generative adversarial networks. Communications of the ACM, 63(11), 139–144. https://doi.org/10.1145/3422622
-
 ## Affordance
 
-Gibson (1977, 1979) coined the term “affordance” to describe what the environment “offers the individual, what it provides or furnishes, either for good or ill” .Affordances can be viewed as animal-relative properties of the environment. They correspond to the action possibilities offered to an animal by the environment with reference to the individual’s action capabilities. For example, a leaf provides support for a wasp but not for a dog. Here, the support-ability of the leaf is an affordance for the wasp. Affordances can vary not only between species but also between the individuals of the same species. A 30-cm stair is climb-able for an adult but not for a child. In sum, affordances are neither objective nor subjective, but both. They are objective because they exist independently of the act of perception. But, they are also subjective because the frame of reference is the individual’s action capabilities. 
+Gibson coined the term “affordance” to describe what the environment “offers the individual, what it provides or furnishes, either for good or ill” 
+
+Affordances can be viewed as animal-relative properties of the environment. They correspond to the action possibilities offered to an animal by the environment with reference to the individual’s action capabilities. For example, a leaf provides support for a wasp but not for a dog. Here, the support-ability of the leaf is an affordance for the wasp. 
+
+Affordances can vary not only between species but also between the individuals of the same species. A 30-cm stair is climb-able for an adult but not for a child. In sum, affordances are neither objective nor subjective, but both. They are objective because they exist independently of the act of perception. But, they are also subjective because the frame of reference is the individual’s action capabilities. 
+
 Gibson also assumed that affordance perception does not need information processing or internal representations. Rather, affordance perception is direct, corresponding to a learning process based on the extraction of invariants. An animal perceives walk-ability if it sees a flat, extended, rigid, horizontal surface, because this combination of invariants affords support.
-Physical versus learned affordance (Norman, 2002) 
-Norman was inspired by the dichotomy between the ventral system and the dorsal system and drew a close parallel between the functions of the dorsal system and affordances. Specifically, he stressed that some statements made by Gibson were somewhat equivocal. For example, Gibson (1979) wrote that: “the ‘values’ and ‘meanings’ of things in the environment can be directly perceived” or “postboxes afford letter mailing”. Norman (2002) proposed that only “physical affordances” are perceived by the dorsal system. So, in the aforementioned example of the postboxes, “it would be better to say that slot in the mailbox affords inserting an object of appropriate size and shape”. By contrast, the ventral system is in charge to assign meanings to things, and particularly to provide information about the conventional uses of familiar tools (i.e., familiar tool use). In this case, Norman suggested the notion of “learned affordance”. The physical versus learned affordance dichotomy mirrors the novel versus familiar tool use opposition, respectively. In this view, both types of affordances can contribute to tool use, even though the ability to perform familiar tool use might be one of the properties of the ventral system. Importantly, this dichotomy also implies that the perception of physical affordances (dorsal system) guides not only body actions within a hand-centered frame of reference (e.g., reaching, grasping) but also novel tool use, namely, actions involving a toolcentered frame of reference. We see a contradiction in Norman’s argument as he also suggested that the transformation of visual information into a tool-centered framework (called allocentric by Norman) is the specific function of the ventral system (i.e., learned affordance). By contrast, the dorsal system is responsible for the transformation of “visual information into an egocentric framework allowing the actor to grasp or otherwise bodily manipulate the object” 
+
+Physical versus learned affordance
+
+Norman was inspired by the dichotomy between the ventral system and the dorsal system and drew a close parallel between the functions of the dorsal system and affordances. Specifically, he stressed that some statements made by Gibson were somewhat equivocal. For example, Gibson wrote that the ‘values’ and ‘meanings’ of things in the environment can be directly perceived” or “postboxes afford letter mailing”. Norman proposed that only “physical affordances” are perceived by the dorsal system. So, in the aforementioned example of the postboxes, it would be better to say that slot in the mailbox affords inserting an object of appropriate size and shape.
+
+By contrast, the ventral system is in charge to assign meanings to things, and particularly to provide information about the conventional uses of familiar tools (i.e., familiar tool use). In this case, Norman suggested the notion of “learned affordance”. The physical versus learned affordance dichotomy mirrors the novel versus familiar tool use opposition, respectively. In this view, both types of affordances can contribute to tool use, even though the ability to perform familiar tool use might be one of the properties of the ventral system. 
+Importantly, this dichotomy also implies that the perception of physical affordances (dorsal system) guides not only body actions within a hand-centered frame of reference (e.g., reaching, grasping) but also novel tool use, namely, actions involving a toolcentered frame of reference. We see a contradiction in Norman’s argument as he also suggested that the transformation of visual information into a tool-centered framework (called allocentric by Norman) is the specific function of the ventral system (i.e., learned affordance).
+
+By contrast, the dorsal system is responsible for the transformation of “visual information into an egocentric framework allowing the actor to grasp or otherwise bodily manipulate the object” 
 Norman and Young (2006) have suggested that the perception of affordances – and more specifically of physical affordances for Norman – might be supported by the dorsal system. The same theoretical rapprochement may be envisaged between the dorsal system and the affordance route to action. Nevertheless, Yoon and Humphreys (2007) argued that such a rapprochement remains to be demonstrated, notably because of studies indicating that action decision tasks can activate the left inferior temporal lobe (i.e., the ventral system).[^neuro&behavior01affordance]
 
-[^neuro&behavior01affordance]:Osiuraka, François, Yves Rossettic, and Arnaud Badet. "What is an affordance? 40 years later." Neuroscience and Biobehavioral Reviews, volume 77 (2017): pages 403-417.
+[^neuro&behavior01affordance]:Osiuraka, François, Yves Rossettic, and Arnaud Badet. June 1st 2017 _"What is an affordance? 40 years later."_ Neuroscience and Biobehavioral Reviews, volume 77 :pages 403-417. Accessed january 16th 2024.
+https://www.sciencedirect.com/science/article/pii/S0149763416305061 
+
 
 ## Agency 
 
@@ -110,6 +103,8 @@ Big Data is the use of a large quantity of stored and analyzed information to fo
 Big Data is used in everything from health care to political campaigns. Notably big data was a cornerstone of [Barack Obama’s presidential campaigns](http://www.jstor.org/stable/26466778) where personalized messaging and interaction were optimized by the assessment of potential voter preferences. [^LadonMurraycite] Large-scale data analysis was also used in the NBA to track player shooting accuracy. A sensor placed on the hoop would track and record the player’s shots from different points on the court. It would then be able to suggest where to shoot from to maximize winning potential. [^Ricecite] 
 In both of these examples, real-world phenomena were tracked and enumerated. They were then sent through systems and by people who would find patterns that could predict outcomes. 
 
+![Big Data](images/bigdata-marshel.jpg)[^nosebleed22]
+
 
 [^LadonMurraycite]: Landon-Murray, Michael. 2016. “Big Data and Intelligence: Applications, Human Capital, and Education.” Journal of Strategic Security 9, no. 2: 92–121. doi:10.5038/1944-0472.9.2.1514
 
@@ -117,7 +112,7 @@ In both of these examples, real-world phenomena were tracked and enumerated. The
 
 [^Ricecite]: Rice, Mae. 2023.“25 Data Science Applications and Examples.” Built In, February 9, 2023. https://builtin.com/data-science/data-science-applications-examples. 
 
-“Nosebleed Vectors, Photos and PSD Files: Free Download.” Freepik. 2022. Accessed February 11, 2024. https://www.freepik.com/search?format=search&last_filter=query&last_value=nosebleed&query=nosebleed&type=photo.  
+[^nosebleed22]: Freepik. 2022. “Nosebleed Vectors, Photos and PSD Files: Free Download.” Accessed February 11, 2024. https://www.freepik.com/search?format=search&last_filter=query&last_value=nosebleed&query=nosebleed&type=photo
 
 ## Blockchain
 
@@ -127,11 +122,14 @@ Blockchains are secure and maintain a decentralized record of transactions which
 
 For example, blockchains are used in the monetary world for crypto currencies such as Bitcoin and Ethereum since it ensures transparency between transactions and protects the financial identity of individuals when they use crypto to buy or sell anything.[^segura23blockchain]
 
+![Blockchain](images/blockchain.jpg)
+
 [^berg18blockchain]: Berg, Willem van den. 2018 “Blockchain for Fragile States: The Good, the Bad and the Ugly.” Clingendael Institute.
 
 [^kulhari18blockchain]: Kulhari, Shraddha. 2018. “Data Protection, Privacy and Identity: A Complex Triad.” In *Building-Blocks of a Data Protection Revolution: The Uneasy Case for Blockchain Technology to Secure Privacy and Identity*, 1st ed., 23–37. Nomos Verlagsgesellschaft mbH. 
 
 [^segura23blockchain]: Abad Segura, Emilio. 2023. “Blockchain and Cryptocurrencies in Accounting.” In *Holistic Approach to New Technologies for Secure Accounting Management*, 57–68. Dykinson, S.L.
+
 
 
 
@@ -304,6 +302,25 @@ In the 1990s, due to the pop culture popularization of the term, the definition 
 
 [^dclark10wiki]: David Clark, 2010, Characterizing cyberspace: past, present, and future, Accessed January 29, 2024
 
+## Deep fakes
+
+•	synthetic media
+•	vary in their form and creation ( text, image, audio, video)
+•	automatically synthesized by a machine-learning system.
+•	Can manipulate reality
+
+“ for as long as we have been recording the sights and sounds around us, we have been manipulating them”(farid hany)
+We are bombarded with manipulated imagery from the humorous to the absurdly unrealistic body images in fashion magazines and Instagram, weaponized in the form of non-consensual pornography, political attack ads, scientific fraud, misrepresentations in the media, and disinformation campaigns design to sow civil unrest and disrupt democratic elections
+he most recent development in digital tampering , in the form of automated AI-powered media synthesis and manipulation aka deep fakes
+leveraging modern tools in machine learning, computer graphics and computer vision has lowered the skill and time barriers for manipulating content.
+While the ability to alter and change and delete content media is not new, the true power of deep fakes is the widespread access to sophisticated technology that previously was only in the hands of Hollywood-style studios and state-sponsored actors, along with the instantaneous and global distribution channels afforded by social media. [^hany01deepfakes]
+
+[^hany01deepfakes]: 
+Farid, Hany. September 20th 2020, “creating, using, misusing, and detecting deep fakes”, Journal of Online trust & safety, volume 1, no.4. Accessed February 12th 2024.
+https://www.tsjournal.org/index.php/jots/article/view/56 
+
+
+
 # Digitization:
 
 Digitization is a process or a creation of a physical object that becomes photographed, processed into the computer using descriptive coding and then fully becomes a digital media that can be viewed across any search engine.[^mallison23digitization] Digitization entails any physical object or in-person sound that was scanned or recorded and uploaded to a computer to then be showcased within the digital realm. By digitizing data and services, it allows things like energy transformation, mobility and logistic sectors, and enhanced health care to be possible.[^kagermann15digitization] 
@@ -387,6 +404,27 @@ A firewall has many benefits, such as blocking spyware, stopping virus attacks, 
 
 [^Cisco24firewall]:“What Is a Firewall?” n.d. Cisco. Accessed January 29, 2024. https://www.cisco.com/c/en/us/products/security/firewalls/what-is-a-firewall.html.
 [^Spiceworks24firewall]: “What Is a Firewall? Definition, Key Components, and Best Practices.” n.d. Spiceworks (blog). Accessed January 29, 2024. https://www.spiceworks.com/it-security/network-security/articles/what-is-firewall-definition-key-components-best-practices/.
+
+## GAN
+
+Generative adversarial networks (GANs) enable the learning of deep representations without the need 
+for significant training data annotation[^wang10GAN]. They do this by generating backpropagation signals via a 
+rival approach involving two networks meshing together[^Creswell10GAN]. Generative adversarial networks (GANs) 
+are a form of artificial intelligence that can create new instances based on patterns discovered in data. They 
+excel in creating realistic, high-quality photographs[^goodfellow10GAN]. Essentially, GANs recognize the likelihood of various 
+attributes happening in a dataset and utilize that information to generate new, comparable instances[^goodfellow10GAN]. This makes 
+them more successful than other approaches that produce pictures using deep learning, a form of sophisticated machine 
+learning methodology[^goodfellow10GAN].
+
+[^wang10GAN]: Wang, K., C. Gou, Y. Duan, Y. Lin, X. Zheng, and F. -Y. Wang. 
+"Generative adversarial networks: Introduction and outlook." IEEE/CAA Journal of Automatica Sinica 4, 
+no. 4 (2017): 588-598. doi: 10.1109/JAS.2017.7510583.
+
+[^Creswell10GAN]: Creswell, A., T. White, V. Dumoulin, K. Arulkumaran, B. Sengupta, and A. A. Bharath. "Generative Adversarial 
+Networks: An Overview." IEEE Signal Processing Magazine 35, no. 1 (January 2018): 53-65. doi: 10.1109/MSP.2017.2765202.
+
+[^goodfellow10GAN]: Goodfellow, I. J., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair, S., Courville, A., & Bengio, Y. (2020).
+Generative adversarial networks. Communications of the ACM, 63(11), 139–144. https://doi.org/10.1145/3422622
 
 
 ## GitHub
@@ -567,16 +605,18 @@ The Internet has empowered ordinary citizens by making it easier for them to pro
 
 [^Zare24internet5]: Jenkins, Henry, Ravi Purushotma, Margaret Weigel, Katie Clinton, and Alice J. Robison. Confronting the Challenges of Participatory Culture: Media Education for the 21st Century. The MIT Press, 2009. DOI: https://doi.org/10.7551/mitpress/8435.001.0001. ISBN electronic: 9780262258951.
 
-##Lossless
+## Lossless
 Lossless is when there is no loss in data. When compressing a file, we want to store fewer bits all while preserving the original content [^crashcourse2017lossless], this is so that data is easier to store or transmit more efficiently[^lu2016lossless]. Lossless compression occurs when the decompressed data is the same as before the compression occurred[^crashcourse2017lossless]. For example, PNG is a lossless compression [^brian2022lossless] because the compression does not affect the quality of the image.
 
 Techniques used are called dictionary code and run length encoding. Run length encoding is where redundant data is represented differently to save space. For example, if an image contains 7 yellow pixels instead of storing each yellow pixel 7 time it would be better to say there 7 yellow pixels and would only need to mention that there a yellow pixel one time.[^crashcourse2017lossless]
 
 In our contemporary world, lossless compression is important because we live in a digital era, where more often than not we are constantly sharing information online to our friends, peers and colleagues. Whether it’s images or text files, lossless compression plays a crucial role since it important to be able to send out information quickly and efficiently without losing any of that data.
 
-[^crashcourse2017lossless]CrashCourse. 2017.“Compression: Crash Course Computer Science #21.” YouTube. https://youtu.be/OtDxDvCpPL4?si=N7dJNUot4i-9CwiZ. 
-[^lu2016lossless]Lu, Zhe-Ming, and Shi-Ze Guo. 2016. Lossless information hiding in images. Elsevier Science. https://www.overdrive.com/media/3040124/lossless-information-hiding-in-images. 
-[^brian2022lossless]Pickle, Brian, and Per Christensson. 2022. “Lossless.” Definition - What is lossless compression?. https://techterms.com/definition/lossless. 
+![lossless.md](images/collage.jpg)
+
+[^crashcourse2017lossless]: CrashCourse. 2017.“Compression: Crash Course Computer Science #21.” YouTube. https://youtu.be/OtDxDvCpPL4?si=N7dJNUot4i-9CwiZ. 
+[^lu2016lossless]: Lu, Zhe-Ming, and Shi-Ze Guo. 2016. Lossless information hiding in images. Elsevier Science. https://www.overdrive.com/media/3040124/lossless-information-hiding-in-images. 
+[^brian2022lossless]: Pickle, Brian, and Per Christensson. 2022. “Lossless.” Definition - What is lossless compression?. https://techterms.com/definition/lossless. 
 
 ##Meme
 
@@ -606,6 +646,7 @@ It's important to realize with Mobile Computing that it isn't only linked to por
 
 The easiest way to understand this term is to take it literally. The first part being mobile which means something that can be in motion and not constrained by location or time. The second part being computing meaning a form of technology or something that processes and inputs and outputs something.[^Lutkevich(n.d)mobilecomputing]
 
+![Mobile Computing](images/mobile-computing-narita.png)
 
 
 
