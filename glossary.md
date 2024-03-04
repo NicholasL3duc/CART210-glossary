@@ -60,16 +60,37 @@ Image made of a composition of [^Drexler16agency] [^Al24agency] [^tumblr24agency
 ## API
 The Application Programming Interface (API) is responsible for transmitting data from one device to another by taking in a request and responding with the data requested.
 
-A main advantage of using an API to communicate between the client and the server rather than sending a direct query to the databases is that it protects the database from potential security risks. It also allows developers to keep a similar syntax when requesting data from any type of database. [^dreanfactory2023understanding]
+### Advantage and Purpose of APIs
+
+The advantage of using an API to communicate between the client and the server rather than sending a direct query to the databases is that it protects the database from potential security risks. It also allows developers to keep a similar syntax when requesting data from any type of database. [^dreanfactory2023understanding]
 The purpose of an API is to provide the client, whether a mobile application, website or other software, the information to build their product.
 
-There are APIs for different purposes. For example, if making an application that gives information on the weather, an API for the weather would be used to gather the necessary information. The developer or client would send a request to the API server that would return a response including some data. Using APIs also helps construct flexible applications by allowing developers to add functionalities easily to an existing project.[^aws24what] 
+Several APIs are available on the Internet with different sets of data pertinent for various purposes. For example, if making an application that gives information on the weather, an API for the weather would be used to gather the necessary information. The developer or client would send a request to the API server that would return a response including some data. Using APIs also helps construct flexible applications by allowing developers to add functionalities easily to an existing project.[^aws24what] Anyone can easily integrate APIs into their projects by searching for them online. However, they are mostly implemented by programmers since it is not meant to be used by the end-user.[^wiki24api]
 
-Anyone can easily integrate APIs into their projects by searching for them online. However, they are mostly implemented by programmers since it is not meant to be used by the end-user.[^wiki24api]
+### Types of APIs
+There are several types of APIs available for developers depending on the needs of a project. Each type of API has its own architecture and data formats.
+#### Representational State Transfer (REST or RESTful):
+The architecture of the REST API relies on six constraints, a uniform interface, a client-server decoupling, statelessness, storing cache, a layered system architecture and code on demand.
+This gives developers consistent data that are uniform and predictable, making it easier for them to understand and put the information requested to use. The data can be delivered in several kinds of formats such as JSON, HTML, SLT, Python, PHP and plain text.
+This type of API is ideal for web and mobile applications as it allows flexibility in programming languages. It is also able to handle large numbers of users simultaneously.[^ibm24what]
+
+#### Simple Object Access Protocol (SOAP):
+SOAP API, in comparison to REST API, is more rigid in its structure and only returns data in an XML format. It is most used when building on outdated systems which already use the protocol. There are also advantages in using SOAP for its tighter security beneficial to internal applications. It is also a better option if the integrity of the data is important as it implements the Atomicity, Consistency, Isolation, and Durability (ACID) properties. It is more reliable at the cost of less flexibility.[^aws24soap]
+
+#### GraphQL (Query Language):
+GraphQL is a query language signifying that the developer can use queries to request specific data. The string is sent to the server for interpretation and responds to the request with a JSON. It was developed by Facebook[^meta15graphql] and is the most modern standard for APIs after REST. It allows developers to avoid over-fetching data and only collecting what they request.[^graphql24basics] The developer can specify the structure of the response it needs for certain tasks. Additionally, GraphQL can retrieve the required data with a single request which reduces redundant communication between the client and the server.
+
+### APIs and Art
+Some museums have incorporated new technologies in the recent decade to provide more accessibility. One of the way to acheive that was by openly sharing a  database of their art collection online accessible to anyone through thier API. For example, the Metropolitan Museum of Art introduced the Metropolitan Museum of Art Met Collection API with an Open Access policy, allowing the distribution of their collection for the public domain. The data also includes relevant information on the history, artist and other details along with the works.[siegel18APIs] This reflects the integration of APIs in the art world and its impact on how we consume art. 
 
 [^wiki24api]: Wikipedia. 2024. "API". Accessed January 29, 2024. https://en.wikipedia.org/wiki/API
-[^aws24what]: AWS. 2024. "What is an API (Application Programming Interface)?" Accessed January 29, 2024. https://aws.amazon.com/what-is/api/.
+[^aws24what]: 2024. "What is an API (Application Programming Interface)?" AWS. Accessed January 29, 2024. https://aws.amazon.com/what-is/api/.
 [^dreanfactory2023understanding]: Nguyen, Spencer. 2023. "Understanding the Connection Between Databases and APIs." Accessed January 25, 2024. https://blog.dreamfactory.com/understanding-the-connection-between-databases-and-apis/#:~:text=APIs%20facilitate%20communication%20between%20applications,layer%20of%20protection%20to%20databases.
+[^ibm24what]: 2024. "What Is a Rest Api?" IBM. Accessed February 26, 2024. https://www.ibm.com/topics/rest-apis. 
+[^aws24soap]: 2024 "What is the Difference Between SOAP and REST?" AWS. Accessed February 26, 2024. https://aws.amazon.com/compare/the-difference-between-soap-rest/. 
+[^graphql24basics]: 2024. "GraphQL is better than REST." How to GraphQL. Accessed February 26, 2024. https://www.howtographql.com/basics/1-graphql-is-the-better-rest/. 
+[^meta15graphql]: Byron, Lee. 2015. "GraphQL: A data query language." Engineering at Meta. Accessed February 26, 2024. https://engineering.fb.com/2015/09/14/core-infra/graphql-a-data-query-language/
+[siegel18APIs]: Siegel, Camille. 2018. "APIs and the art world: Working together for digital collaboration." Axway. https://blog.axway.com/product-insights/amplify-platform/application-integration/apis-art-world.
 ## Asset
 
 The definition of asset in a general context is rooted in the business and economics. In a paper on the definition of a brand asset, the term is defined as a symbol that helps identify goods or services that differentiates it from its competitors.[^tollington98asset]
@@ -86,11 +107,15 @@ Outside of a definition of bits, an asset can also be described as an “intangi
 
 ## Avatar
 
+![avatar](images/avatar_Tadonki.png)[^avatarSourceList]
+
 An avatar is a digital entity or body through which a human being can experience the events within a digital world, giving the user a “subject-position within a simulated environment, a vicarious body through which the player can act as an agent in a fictional world.”[^Castronova03avatar] 
 
 The term takes its meaning from Hinduism, deriving from a Sanskrit word for “descent” and used to refer to the incarnations the Hindu god Vishnu on earth.[^Klevjer06avatar] This term has evolved to symbolize the body that we inhabit when visiting a virtual world, and that only exists there.[^Trepte/Reinecke10avatar]
 
 The creation and use of avatars began mostly in entertainment media such as video games or virtual reality where they can be used by players to accomplish several gameplay related actions such as combat or communication.  But with the increasing popularity and accessibility of 3D art and 3D creation software, avatars have also found use in the creation of 3D artwork, from artistic screenshots to sceneries. The design of an avatar can be as grounded or fantastical as the user desires, ranging from human-like characters to fantastic beasts. Alongside this, the ever-increasing computing power and graphical capabilities of modern computers expand the options available in avatar creation, enabling users to create avatars with more and more sophisticated designs and details.
+[^avatarSourceList]:All 3d models belong to their respective owners: ARC SYSTEM WORKS, NIS America, Team Reptile, Nintendo, Pupuya Games, Tango Gameworks, Valve, Antro (@antro3dcg), Rockstar, Edelweiss.
+
 [^Castronova03avatar]:Castronova, Edward. 2003. “Theory of the Avatar.” CESifo Working Paper Series, no. 863. Munich: CESifo.
 
 [^Klevjer06avatar]:Klevjer, Rune. “What is the avatar? Fiction and embodiment in avatar-based singleplayer computer games.” (2006).
@@ -161,6 +186,24 @@ start posting your own writing or art no matter how niche it is.
 
 [^greatcontent22blog]: GreatContent. “What Is Blogging & How to Start It?” GreatContent, November 8, 2022. https://greatcontent.com/pillar/what-is-blogging/. 
 
+## Brain Interfaces
+
+![Brain Interfaces](images/brain-interface-on_line.png)[^Angelsimon]
+
+Brain Interfaces, also commonly called Brain-computer interfaces (BCIs) enables users to send messages or commands directly via brain activity, without movement. It is a communication system in which messages or commands of an individual sending it to the external world do not pass through the brain’s normal output pathways of peripheral nerves and muscles.[^GugerChris]
+
+Brain-compiter interfaces raise and confront on level of philosophical and cultural questions to be asked. Initially, known in the realm of science fiction and popular movies, such as The Matrix(1999), the audiences has been confronted ot this idea of being connected via the brain/spine "plugged" to a virtual reality world or memory upload.[^CaldwellEverett]
+
+In the view of Hayles, she engages with the facts that the body can be integrated with technology or without technology, but stands with the complexity of the material world: "If my nightmare is a culture inhabited by posthumans who regard their bodies as fashion accessories rather than the ground of being, my dream is a version of the posthuman that embraces the possibilities of information technologies without being seduced by fantasies of unlimited power and disembodied immortality, that recognizes and celebrates finitude as a condition of human being, and that understands human life is embedded in a material world of great complexity, one on which we depend for our continued survival."[^Hayles]
+
+[^Angelsimon]: Simon, Angel. "Textura de un cerebro fresco de cordero". Education License - Adobe Stock. Assessed February 12, 2024. https://stock.adobe.com/ca/Library/urn:aaid:sc:VA6C2:82f1f676-07ac-428f-92d4-006bfcf3333e?asset_id=123121549.
+
+[^GugerChris]: Guger, Christoph, Allison, Brendan Z., and Aysegul Gunduz. 2021. "Brain-Computer Interface Research: A State-of-the-Art". Brain-Computer Interface Research, SpringerBriefs in Electrical and Computer Engineering.
+
+[^CaldwellEverett]: Everett, Anna, Caldwell, John T. 2003. "New Media: Theories and Practices of Digitextuality". Routelegde.
+
+[^Hayles]: Hayles, Katherine. 1999. "How We Became Posthuman: Virtual Bodies in Cybernetics, Literature, and Informatics." University of Chicago Press.
+
 ## CMYK
 
 CMYK is a color model used in printing. It is an abbreviation of **C**yan, **M**agenta, **Y**ellow, and **K**ey (black, which refers to printing plates being keyed or aligned to the black printing plates) which provides a more reliable reproduction of images that RGB cannot provide. It is also used quite a bit thanks to its incredible accuracy that it can hold. While it is not the most accurate with darker tones (leading it to become lighter in rare cases) it still holds up to be the most accurate.
@@ -204,18 +247,7 @@ The ongoing innovation in codec technology, including the development of both pr
 
 
 
-## Computer-Human Interaction
-//definition to be added
-
-![computer-human_interaction](images/human-computer_interaction_-_catt_.png)
-
-Bibliography for imagesin collage: 
-
-[^Edlow23computer-human_interaction]: Edlow, Brian L., et al. “7 Tesla MRI of the Ex Vivo Human Brain at 100 Micron Resolution.” Scientific Data, vol. 6, no. 1, 30 Oct. 2019, p. 244, www.nature.com/articles/s41597-019-0254-8, https://doi.org/10.1038/s41597-019-0254-8. Accessed 10 Feb. 2024.
-
-[^DrawPaintAcademy23computer-human_interaction]: “Hand Reference Photos.” 2023. Draw Paint Academy. February 2, 2023. https://drawpaintacademy.com/gallery/hand-reference-photos/.
-
-[^WikipediaContributors19computer-human_interaction]: Wikipedia Contributors. “Human Eye.” Wikipedia, Wikimedia Foundation, 23 Apr. 2019, en.wikipedia.org/wiki/Human_eye. Accessed 10 Feb. 2024.
+//need to delete, info now under human-computer_interaction.md
 
 ## Copyright
 
@@ -270,7 +302,8 @@ Cryptocurrency is a type of digital or virtual currency that uses cryptography f
 ### Examples
 
 
-
+#### Collage demonstrating the importance of CSS in webpages
+![NYT website is not feeling well](images/css-polonsky.png)
 
 [^meyer01css]:Meyer, Eric A. 2006. "CSS: The Definitive Guide: The Definitive Guide." O'Reilly Media, Inc.
 [^robbins02css]:Robbins, Jennifer Niederst. 2012. "Learning web design: A beginner's guide to HTML, CSS, JavaScript, and web graphics." O'Reilly Media, Inc.
@@ -335,21 +368,68 @@ An example of digitization is taking a photo with a camera of something and then
 [^mallison23digitization]: Mallison, Theodore, “Digitization,” Georgetown University. Last modified November 29, 2023. https://guides.library.georgetown.edu/c.php?g=1347959&p=9946942
 
 ## DNS
-The Domain Name System is a system that matches the name in the URL to the IP address of the sites we are looking for on the Internet. This makes it easier for us to naviagte to our favorite websites rather than remembering their IP addresses.[^couldflare24what] The DNS provides the corresponding IP address to the domain name for browsers to find the page we are searching for.
+The Domain Name System is a system that matches the name in the URL to the IP address of the sites we are looking for on the Internet. This makes it easier for us to navigate to our favorite websites rather than remembering their IP addresses.[^couldflare24what] The DNS provides the corresponding IP address to the domain name for browsers to find the page we are searching for.
+In short, the DNS allows a more user-friendly interface for users to navigate the Internet through human-readable host names.[^acm01dns]
 
 ![DNS](images/dns-chan.jpg)
 
-[^couldflare24what]: CloudFlare. 2024. "What is DNS? | How DNS works." Accessed January 25, 2024. https://www.cloudflare.com/learning/dns/what-is-dns/.
+### Domain Namespace
+#### Search Structure
+The DNS is a database that contains information on namespaces and provides the browser with the appropriate information from internet hosts to allow the navigator to reach the right places. It uses the domain namespace, a collection of all the domain names existing on the internet, to perform the search. This system is built on an inverted tree diagram where the initial point splits into several segments that also divide into more subsegments. As the search reaches lower into the tree, the more specific the namespace becomes. The nodes at the root of the tree are referred to as top-level domain names (TLD).[^google06dnsbind]
 
+<img src="https://www.oreilly.com/api/v2/epubs/0596005628/files/httpatomoreillycomsourceoreillyimages137590.png" width="600px" height="auto" alt="Diagram of the struture of the doamin namespace">
+
+
+#### Seven Top-Level Domain Names (TLD) That Divide The Internet
+To host a website on the Internet, we are required to buy a root domain which includes the domain name and the TLD. The combination creates a website address such as _google.com_. Originally, there were seven top-level domain names that reflected the nature of the organization behind the website. 
+- **.com** : Commercial use.
+- **.edu** : Educational organizations.
+- **.gov** : Government websites.
+- **.mil** : Military websites.
+- **.net** : For NSFNET and UUNET, and commercial use after 1996.
+- **.org** : Noncommercial organizations (before 1996).
+- **.int** : International organizations.
+
+Today, other domains were added with the expansion of the Internet, allowing for a larger pool of available namespaces.[^google06dnsbind] Big companies like Apple, Google, Audible, Amazon, Best Buy, and more own TLDs that are reserved strictly for their use and inaccessible to the public.
+
+### DNS and New Media
+The obvious relation between the DNS and new media is through everything that needs to connect to the Internet.
+Therefore, all new media platforms in the form of websites, applications and other online formats require IP addresses and a corresponding domain name. Without the DNS, it would be much harder to navigate the Web and access new media content.
+
+#### TLDs and New Media Art
+The DNS allows artists to choose namespaces that correspond to their work and specializations. This creates room for artists to express themselves by using the DNS and namespaces as a way to establish a unique name reflecting their brand.
+
+Several examples of top-level domains available for artists, designers and creators to buy include:
+[^wiki24list]
+- **.actor**
+- **.art**
+- **.design**
+- **.digital**
+- **.graphics**
+- **.media**
+- **.studio**
+- **.tech**
+- etc.
+
+
+[^couldflare24what]: CloudFlare. 2024. "What is DNS? | How DNS works." Accessed January 25, 2024. https://www.cloudflare.com/learning/dns/what-is-dns/.
+[^acm01dns]: Jung, Jaeyeon, Sit, Emil, Balakrishnan, Hari and Morris, Robert. 2001. "DNS Performance and the Effectiveness of Caching: Proceedings of the 1st ACM SIGCOMM Workshop on Internet Measurement." ACM Conferences. Accessed February 26, 2024. https://dl.acm.org/doi/epdf/10.1145/505202.505223.
+[^google06dnsbind]: Liu, Cricket, and Albitz, Paul. 2006. "How Does DNS Work?" DNS and Bind, 11-34. Google Books. Accessed February 26, 2024. https://books.google.ca/books?hl=en&lr=&id=u0GbAgAAQBAJ&oi=fnd&pg=PT4&dq=DNS&ots=6-v2uEt-Oy&sig=wV_8GvQVJJORsEiKSgDny91vV3A#v=onepage&q&f=false. 
+[^wiki24list]: 2024. "List of Internet Top-Level Domains." Wikipedia. Accessed February 26, 2024. https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains. 
 ## E-commerce
 E-commerce, short for electronic commerce, refers to buying and selling goods and services on the internet. It is part of a bigger industry called e-business which includes all the processes that are needed to run an online company.[^Bloomental23ecommerce] Consumers can buy almost everything at any time of the day through ecommerce.[^Forbes23ecommerce]
 
 The history of e-commerce dates back to even before the creation of the Internet. It started with the electronic system called EDI in the 1960s, which allowed document transfers. The first online transaction happened in 1994 when a CD was sold through an online market called NetMarket. Since then, the industry has grown and given rise to today’s popular platforms such as Amazon, eBay, Shopify, etc.[^Bloomental23ecommerce]
 
+E-commerce is related to new media as it has been significantly influenced by the rise of new media, particularly social media. Platforms like Facebook, Instagram, and Twitter have emerged as new marketplaces for businesses, facilitating them to broaden their reach and establish a more personal connection with their customers.[^Dwivedi23ecommerce] This fusion of media and commerce, often termed “social commerce,” has redefined the traditional business model and unlocked new possibilities for businesses.[^HuangYu16ecommerce]
 
+Moreover, E-commerce has also transformed marketing strategies. The rise of seamless shopping experiences has pushed marketers to use methods and content types that make the customer’s path to purchase smoother.[^HuangYu16ecommerce] This includes strategies like using video ads on sites like YouTube, working with influencers, and new trends like shopping in a virtual reality setting and live online shopping events.[^HuangYu16ecommerce]
 
-[^Bloomental23ecommerce]: Bloomenthal, Andrew. 2023. “E-commerce Defined: Types, History, and Examples.” Investopedia. Accessed January 25. https://www.investopedia.com/terms/e/ecommerce.asp.
-[^Forbes23ecommerce]: Forbes Advisor. 2023. “What Is E-Commerce? Definition, Types & Getting Started.” Forbes. Accessed January 25. https://www.forbes.com/advisor/business/what-is-ecommerce/.
+[^Bloomental23ecommerce]: Bloomenthal, Andrew. 2023. “E-commerce Defined: Types, History, and Examples.” Investopedia. https://www.investopedia.com/terms/e/ecommerce.asp.
+[^Forbes23ecommerce]: Jolaoso, Christina. 2023. “What Is E-Commerce?.” Forbes Advisor. https://www.forbes.com/advisor/business/what-is-ecommerce/.
+[^Dwivedi23ecommerce]: Dwivedi, Yogesh K., Elvira Ismagilova, Nripendra P. Rana, and Ramakrishnan Raman. 2023. “Social Media Adoption, Usage And Impact In Business-To-Business (B2B) Context: A State-Of-The-Art Literature Review.” Information Systems Frontiers 25 (3): 971–93. https://doi.org/10.1007/s10796-021-10106-y.
+[^HuangYu16ecommerce]: Huang, Zhao, and Wang Yang Yu. 2016. “Bringing E-Commerce to Social Networks.” In HCI in Business, Government, and Organizations: eCommerce and Innovation, edited by Fiona Fui-Hoon Nah and Chuan-Hoo Tan, 46–60. Cham: Springer International Publishing. https://doi.org/10.1007/978-3-319-39396-4_5.
+
 
 ## Embodiment 
 ![Embodiment](images/embodiment-rezaee.png)
@@ -385,13 +465,29 @@ Ethernet usually offers faster internet connection than Wi-Fi because of its use
 
 ## Facial Recognition
 
-Facial recognition is a recognition system that utilizes biometrics to detect, analyze, and recognize faces.[^kaur20facial] The process can be broken down into three technologies: detection, analysis, and recognition. Detection infers the training of an algorithm to recognize faces; The detected faces are then mapped and converted into a “faceprint”[^klosowski20facial]. Finally, and most notably, faceprints are compared to individuals in a database to find their closest match.[^klosowski20facial]
+Facial recognition is a recognition system that utilizes biometrics to detect, analyze, and recognize faces.[^kaur20facial] The process can be broken down into three technologies: detection, analysis, and recognition. Detection infers the training of an algorithm to recognize faces; The detected faces are then mapped and converted into a “faceprint”.[^klosowski20facial] Finally, and most notably, faceprints are compared to individuals in a database to find their closest match.[^klosowski20facial] Face recognition is, defined by the IEEE, is an umbrella term capturing all "related technologies for building a face recognition system," including "face detection, face position, identity recognition, image preprocessing, etc"[^li20facial]. 
 
-This software can be traced back to the 1960s. A system developed by Woodrow Wilson Bledsoe in which an "unknown face is compared against data points of previously entered pictures".[^klosowski20facial]
+This software can be traced back to the 1960s. A system developed by Woodrow Wilson Bledsoe in which an "unknown face is compared against data points of previously entered pictures".[^klosowski20facial] As computers became more powerful, they began utilizing neural networks in the recognition process, resulting in the development of databases of faces. Such algorithms were predominantly trained on white males, thus leading to a higher rate of misidentification amongst BIPOC and female faces.[^klosowski20facial] Furthermore, facial recognition - notably its increasing use by governments - has given rise to security concerns, including the archiving of biometric information and images to build their databases.[^klosowski20facial]. Despite these worries, facial recognition has trickled into our day-to-day lives: face ID has become a vital and normalized feature of our mobile devices. Hence, this recognition technology and its increasing presence in our systems contributes to the growth of surveillance capitalism.
+
 
 [^kaur20facial]: Kaur, Paramjit, Kewal Krishan, Suresh K Sharma, and Tanuj Kanchan. 2020. “Facial-Recognition Algorithms: A Literature Review.” Medicine, Science and the Law 60 (2): 131–39. https://doi.org/10.1177/0025802419893168.
 
 [^klosowski20facial]: Klosowski, Thorin. “Facial Recognition Is Everywhere. Here’s What We Can Do about It.” The New York Times, July 15, 2020. https://www.nytimes.com/wirecutter/blog/how-facial-recognition-works/. 
+
+[^li20facial]: Li, Lixiang, Xiaohui Mu, Siying Li, and Haipeng Peng. “A Review of Face Recognition Technology.” IEEE Access 8 (2020): 139110–20. https://doi.org/10.1109/access.2020.3011028. 
+
+## Fan/Fandom
+
+A Fan is a person that devotes themselves with genuine enthusiasm to something or someone. Whether it be an activity, a person, a product, a group, a company, etc… They can range from people who simply deeply enjoy something to someone who dedicates themselves to something they enjoy to the point of positively advertising it to people who are unaware of it and/or creating content around it.
+
+Originating from the latin term fanaticus, meaning insane, mad, or possessed by gods [^Barton14Fan/Fandom] and the term “fanatic” used to describe extremely devout religious followers, the term was shortened to “fan”, which allowed it to abandon such a religious connotation and the usual intensity that accompanies the term, and then made its way into common English language.
+
+Fans and Fandoms are very known for expressively displaying their love for the material, person, or organization that they are fans of. Fanfiction, which can be described as stories written by fans of mass-produced media [^De_Kosnik16Fan/Fandom], is one of the prime methods fans use to show their affection for storytelling media for example. Fans will analyze the source material, re-structure, re-imagine a written story that they enjoyed and discuss it with others. Fans and fandoms are usually positive minded. But people can also form a community around things they hate. The term anti-fandom/anti-fans describes this as “distant readers who form an image of a text or a genre without actually paying attention to it, and who then viscerally define their identity against the disliked object.”[^Duffett13Fan/Fandom]
+[^Barton14Fan/Fandom]:Barton, Kristin Michael, and Jonathan Malcolm Lampley, eds. 2014. Fan Culture : Essays on Participatory Fandom in the 21st Century. Jefferson, North Carolina: McFarland &#38; Company, Inc.
+
+[^De_Kosnik16Fan/Fandom]:De Kosnik, Abigail. 2016. Rogue Archives : Digital Cultural Memory and Media Fandom. Cambridge, Massachusetts: MIT Press. 
+
+[^Duffett13Fan/Fandom]:Duffett, Mark. 2013. Understanding Fandom : An Introduction to the Study of Media Fan Culture. New York: Bloomsbury.
 
 ## Firewall
 
@@ -404,6 +500,18 @@ A firewall has many benefits, such as blocking spyware, stopping virus attacks, 
 
 [^Cisco24firewall]:“What Is a Firewall?” n.d. Cisco. Accessed January 29, 2024. https://www.cisco.com/c/en/us/products/security/firewalls/what-is-a-firewall.html.
 [^Spiceworks24firewall]: “What Is a Firewall? Definition, Key Components, and Best Practices.” n.d. Spiceworks (blog). Accessed January 29, 2024. https://www.spiceworks.com/it-security/network-security/articles/what-is-firewall-definition-key-components-best-practices/.
+
+## Futurism
+
+Futurism was an artistic and social movement that started in Italy at the beginning of the 20th century. The movement was started by Filippo Tommaso Marinetti, publishing a manifesto in the French journal, Le Figaro.[^coenmunsgrove03futurism] During that time, new technologies were being developed at a rapid pace. Futurists rejected the past and believed in a future where technology ruled. Futurist ideas were expressed through painting, sculpture and even fashion, favoring less conventional elements to separate themselves from traditional methods used in these mediums, often putting an emphasis on dynamism and speed in their art.[^coenmunsgrove03futurism] Destruction was believed to bring change to their country in order to make it stronger and more developed.[^casden15futurism]
+
+However, this movement was not without controversy. Because futurists had an industrialized view of the future, they deemed museums and libraries as unnecessary and advocated for their destruction. They also deemed feminism as unnecessary.[^casden15futurism][^luisettisomigli09futurism] Another reason for this is due to Italy not being as industrially developed during this time as the other powerful countries. Italy was often associated with classical art movements such as the Renaissance, making technological advancements seem more necessary than ever.[^casden15futurism] Futurism also had heavy ties to Fascism, with members siding with Mussolini after the First World War.[^luisettisomigli09futurism]
+
+[^casden15futurism]: Casden, Emily. 2015. “Italian Futurism: An Introduction.” Khan Academy. https://www.khanacademy.org/humanities/art-1010/xdc974a79:italian-art-before-world-war-i/art-great-war/a/italian-futurism-an-introduction 
+
+[^coenmunsgrove03futurism]: Coen, Ester, and John Musgrove. 2003. “Futurism.” Oxford art online. DOI: https://doi-org.lib-ezproxy.concordia.ca/10.1093/gao/9781884446054.article.T030277 
+
+[^luisettisomigli09futurism]: Luisetti, Federico, and Luca Somigli. “A Century of Futurism: Introduction.” Annali d’Italianistica 27, (2009): 13-21. JSTOR, https://www.jstor.org/stable/24016244
 
 ## GAN
 
@@ -426,6 +534,26 @@ Networks: An Overview." IEEE Signal Processing Magazine 35, no. 1 (January 2018)
 [^goodfellow10GAN]: Goodfellow, I. J., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair, S., Courville, A., & Bengio, Y. (2020).
 Generative adversarial networks. Communications of the ACM, 63(11), 139–144. https://doi.org/10.1145/3422622
 
+## Git
+
+### Definition
+
+Git is a free, [open source](./opensource.md), and dedicated [version control](./version_control.md) and source code management software. It was created in 2005, when a group of volunteers working on the Linux Kernel had to quickly find a new version control system after a conflict happened with their previous source control management providers, BitKeeper. No longer being able to use this system without paying to use it, and with other free-to-use solutions not being able to fit their development needs, they instead created their own system.[^Geeksforgeeks-Git]
+
+One of its main features is its ability to create branches[^Git-Git]; Different versions of the same code that are independant from each other, but still lets you copy the changes made in another branch into your own if needed. Another important feature is the staging state before a commit is fully completed, which allows you to select which changes will be included in a specific commit.
+
+### Repository Hosting Platforms that use Git[^Opensource-Git]
+
+- [GitHub](./github.md)
+- GitLab
+- Bitbucket
+- SourceForge
+
+[^Geeksforgeeks-Git]: GeeksForGeeks. 2021. "History of Git." GeeksForGeeks. [https://www.geeksforgeeks.org/history-of-git/](https://www.geeksforgeeks.org/history-of-git/)
+
+[^Git-Git]: Git. "About." Git. Accessed March 1, 2024. [https://git-scm.com/about](https://git-scm.com/about)
+
+[^Opensource-Git]: Opensource. 2018. "6 places to host your git repository." Opensource. [https://opensource.com/article/18/8/github-alternatives](https://opensource.com/article/18/8/github-alternatives)
 
 ## GitHub
 GitHub is a web-based platform for version control and collaboration using Git,[^github24wikis] allowing users to manage and share code in various repositories and offering wikis for documentation and collaborative editing. GitHub employs Git software, offering distributed version control, access control, bug tracking, feature requests, task management, continuous integration, and project [wikis](../main/glossary.md#wiki).[^kinsta24what]
@@ -522,6 +650,18 @@ Image on the bottom corner[^rosenthal21hologram]
 
 [^rosenthal21hologram]: Rosenthal, Lynn. *Could Holograms Be the Future of Entertainment and Advertising?*. Image. RollingStone. December 14, 2021. https://www.rollingstone.com/culture-council/articles/holograms-future-entertainment-advertising-1268769/.
 
+# Hologram:
+
+A hologram is created using a laser to project a three-dimensional photograph. How a laser can turn a photograph three-dimensional is done by having the object that will be made three-dimensional needs one laser beam to shine through the whole object first. Then another laser beam is projected onto the reflection of the first laser beam, and the point of intersection is then filmed. The film must then be developed and only afterwards, a third laser beam must pass through the film which finally projects a three-dimensional hologram onto a surface. The great thing about holograms from regular films and photographs is that they can be manipulated however possible and yet the original image or film will always be there. This is because all the information from the film or image is stored within the hologram from the object it is reflected from.[^talbot06hologram] Holograms are significantly different from what we know as digitized forms of reality. Holograms are just created through light diffractions which means that it has all the same information stored within it as the original object. Unlike anything that is turned into a digitized format, a lot of information is lost in translation and thus while the product may look as crisp as the original, it will always be a little less real. Holograms are just presented in another format using the light that shines off of an object, thus it can be seen with the naked eye and is merely the original object seen in an alternate way with the help of laser beams.[^elmahaln.d.hologram]
+
+An example of a hologram can be seen in our daily lives in education when holograms are used to teach students if a teacher cannot be present, they can project themselves in front of the class in order for the lesson to continue. Particularly in medicine, another example of hologram usage is when students and even doctors themselves use them to learn more about human anatomy or specific organs on a three-dimensional hologram of the body. They can also learn about medical data and health conditions of different individuals by seeing many different holograms of different bodies reacting differently. Having these three-dimensional settings allows for more physical interaction with these objects, making engagement and immersiveness two of the key factors that allow students to learn better which holograms can help with.[^walker13hologram]
+
+[^elmahaln.d.hologram]: Elmahal, Doaa, Asma Ahmad, Alaa Alomaier, Reem Abdlfatah, and Dina Hussein. n.d. “Comparative Study between Hologram Technology and Augmented Reality.” *Journal of Information Technology Management* 12 (2): 90–106. Accessed March 1, 2024. https://doi.org/10.22059/jitm.2020.75794.
+
+[^walker13hologram]: Walker, Robin A. 2013. “Holograms as Teaching Agents.” *Journal of Physics: Conference Series* 415: 25–29. Accessed March 1, 2024. https://doi.org/10.1088/1742-6596/415/1/012076.
+
+[^talbot06hologram]: Talbot, Michael. 2006. “The Holographic Universe Does Objective Reality Exist?” Accessed March 1, 2024. https://www.stealthskater.com/Documents/Holography_03.pdf.
+
 ## HTTPS
 
 HTTPS is an extension of the HTTP but is more secure as it incorporates encryption, authentication, and integrity checks. It provides a secure method for transmitting data between a web server and a web browser by using encryption technology like SSL or TLS. It operates on a request-response model, it sends a request and awaits the server’s response.[^WhatIsHTTPS24]
@@ -549,6 +689,42 @@ HTTPS contributes to a better overall user experience by providing faster loadin
 
 [^LinkedInHTTPSSEO24]: LinkedIn. 2024. "Why does HTTPS matter for SEO?". Accessed January 28. https://www.linkedin.com/advice/0/why-https-important-seo-skills-search-engines-ixwyc#:~:text=HTTPS%20is%20crucial%20for%20SEO,in%20search%20engine%20results%20pages.
 
+## Human-Computer Interaction 
+
+Human-Computer Interaction (HCI) delves into the intricacies of how individuals engage with computers, with a primary focus on user interfaces and ensuring the friendliness of digital technologies. This interdisciplinary field brings together elements from computer science, psychology, design, and sociology to create technology that is effective and accessible.
+
+Key facets of HCI encompass:
+
+1. User-Centered Design (UCD): The design process revolves around understanding users' needs, preferences, and behaviors. User-centered design entails iterations of prototyping and testing, ensuring the final product aligns with users' expectations and needs. A user-centered and friendly interface enables individuals to accomplish tasks with ease and minimal errors, enhancing the overall user experience.
+
+3. Interaction Models: HCI explores a number of expansive interaction models, including graphical user interfaces (GUIs), touchscreens, voice recognition, gesture-based interfaces, and augmented reality. The goal is to identify the optimal way/s for users to interact with the technology.
+
+4. Cognitive Aspects: Understanding human cognition, perception, and memory is absolutely essential in HCI. Designers strive to create interfaces that harmonize with users' mental models, reducing cognitive load and ensuring intuitive and human interactions.
+
+5. Accessibility: HCI actively addresses the accessibility of digital systems for users with diverse abilities and disabilities. This encompasses considerations for visual, auditory, motor, and cognitive impairments, fostering inclusivity— necessary system changes with increasing importance in today's world.
+
+6. Social and Cultural Factors: HCI recognizes the influence of social and cultural factors on user interactions. Designers take into account cultural norms, societal expectations, and user diversity, tailoring interfaces to resonate with a broad audience.
+
+The overarching objective of HCI is to craft systems that are not merely functional but also user-friendly, intuitive, and gratifying for those engaging with them. It adopts a comprehensive approach to refining the interaction dynamics between humans and computers.
+
+[^caroll97human-computer_interaction]: Carroll, John M. 1997. “HUMAN-COMPUTER INTERACTION: Psychology as a Science of Design.” Annual Review of Psychology 48 (1): 61–83. https://doi.org/10.1146/annurev.psych.48.1.61.
+
+[^helander14human-computer_interaction]: Helander, M. G. 2014. Handbook of Human-Computer Interaction. Elsevier.
+
+[^mackenzie24human-computer_interaction]: MacKenzie, I. Scott. 2024. Human-Computer Interaction: An Empirical Research Perspective. Elsevier.
+
+[^myers98human-computer_interaction]: Myers, Brad A. 1998. “A Brief History of Human-Computer Interaction Technology.” Interactions 5 (2): 44–54. https://doi.org/10.1145/274430.274436.
+
+![computer-human_interaction](images/human-computer_interaction_-_catt_.png)
+
+Bibliography for images in collage: 
+
+[^edlow23human-computer_interaction]: Edlow, Brian L., et al. “7 Tesla MRI of the Ex Vivo Human Brain at 100 Micron Resolution.” Scientific Data, vol. 6, no. 1, 30 Oct. 2019, p. 244, www.nature.com/articles/s41597-019-0254-8, https://doi.org/10.1038/s41597-019-0254-8. Accessed 10 Feb. 2024.
+
+[^drawpaintacademy23human-computer_interaction]: “Hand Reference Photos.” 2023. Draw Paint Academy. February 2, 2023. https://drawpaintacademy.com/gallery/hand-reference-photos/.
+
+[^wikipediacontributors19human-computer_interaction]: Wikipedia Contributors. “Human Eye.” Wikipedia, Wikimedia Foundation, 23 Apr. 2019, en.wikipedia.org/wiki/Human_eye. Accessed 10 Feb. 2024.
+
 ## Hypertext
 
 Ted Nelson first introduces the term in his 1965 paper “A File Structure for the Complex, the changing and the indeterminate”, describing it as “a body of written or pictorial material interconnected in such a complex way that it could not conveniently be presented or represented on paper”.[^TedNelson1965]
@@ -557,9 +733,9 @@ Hypertext is a digital form of writing text, exploiting the use of hyperlinks. C
 
 Hypertext allows people to easily access information from multiple sources and navigate through and between multiple documents from different sources on the web. As a form of information management, hypertext allows for a non-linear, and less restrictive exploration of digital content & information.[^JSMERP16] 
 
-[^TedNelson1965]: Nelson, Theodor H. 1965. “Complex Information Processing: A File Structure for the Complex, the Changing, and the Indeterminate.” In ACM’65 Proceedings of the 1965 20th National Conference, 84-100.
+[^TedNelson1965]: Nelson, Theodor H. 1965. “Complex Information Processing: A File Structure for the Complex, the Changing, and the Indeterminate.” In *ACM’65 Proceedings of the 1965 20th National Conference*, 84-100.
 [^OxfordHypertext]: Oxford University Press. Oxford Advanced Learner’s Dictionary. “Hypertext”. Accessed January 28, 2024. https://www.oxfordlearnersdictionaries.com/definition/english/hypertext
-[^JSMERP16]: Koskinen, Jussi., Salminen, Airi. and Paakki, Jukka. May 1, 2004. Hypertext support for the information needs of software maintainers. Journal of Software Maintenance and Evolution: Research and Practice vol. 16. 187-215. https://doi-org.lib-ezproxy.concordia.ca/10.1002/smr.292
+[^JSMERP16]: Koskinen, Jussi, Airi Salminen, and Jukka Paakki. 2004. “Hypertext Support for the Information Needs of Software Maintainers.” *Journal of Software Maintenance and Evolution: Research and Practice* 16 (3): 187–215. https://doi.org/10.1002/smr.292.
 
 
 ## Information Architecture 
@@ -593,7 +769,7 @@ The Internet functions as an interactive medium, linking millions of devices and
 
 The Internet has empowered ordinary citizens by making it easier for them to produce and distribute information to a variety of audiences. This transformation has caused a fundamental shift in the traditional media landscape. [^Zare24internet5]
 
-
+![internet](images/internet-zare.PNG)
 
 [^Zare24internet1]: "What Is the Internet?" Spiceworks. Accessed January 28, 2024. https://www.spiceworks.com/tech/networking/articles/what-is-the-internet/.
 
@@ -606,7 +782,7 @@ The Internet has empowered ordinary citizens by making it easier for them to pro
 [^Zare24internet5]: Jenkins, Henry, Ravi Purushotma, Margaret Weigel, Katie Clinton, and Alice J. Robison. Confronting the Challenges of Participatory Culture: Media Education for the 21st Century. The MIT Press, 2009. DOI: https://doi.org/10.7551/mitpress/8435.001.0001. ISBN electronic: 9780262258951.
 
 ## Lossless
-Lossless is when there is no loss in data. When compressing a file, we want to store fewer bits all while preserving the original content [^crashcourse2017lossless], this is so that data is easier to store or transmit more efficiently[^lu2016lossless]. Lossless compression occurs when the decompressed data is the same as before the compression occurred[^crashcourse2017lossless]. For example, PNG is a lossless compression [^brian2022lossless] because the compression does not affect the quality of the image.
+Lossless is when there is no loss in data. When compressing a file, we want to store fewer bits all while preserving the original content [^brookes2021lossless], this is so that data is easier to store or transmit more efficiently[^lu2016lossless]. Lossless compression occurs when the decompressed data is the same as before the compression occurred[^brookes2021lossless]. For example, PNG is a lossless compression [^brian2022lossless] because the compression does not affect the quality of the image.
 
 Techniques used are called dictionary code and run length encoding. Run length encoding is where redundant data is represented differently to save space. For example, if an image contains 7 yellow pixels instead of storing each yellow pixel 7 time it would be better to say there 7 yellow pixels and would only need to mention that there a yellow pixel one time.[^crashcourse2017lossless]
 
@@ -614,9 +790,24 @@ In our contemporary world, lossless compression is important because we live in 
 
 ![lossless.md](images/collage.jpg)
 
+[^brookes2021lossless]: Brookes, Tim. 2021. “Lossy vs. Lossless Compression: What’s the Difference?” How To Geek, https://www.howtogeek.com/744381/lossy-vs-lossless-compression-whats-the-difference/.  
 [^crashcourse2017lossless]: CrashCourse. 2017.“Compression: Crash Course Computer Science #21.” YouTube. https://youtu.be/OtDxDvCpPL4?si=N7dJNUot4i-9CwiZ. 
 [^lu2016lossless]: Lu, Zhe-Ming, and Shi-Ze Guo. 2016. Lossless information hiding in images. Elsevier Science. https://www.overdrive.com/media/3040124/lossless-information-hiding-in-images. 
 [^brian2022lossless]: Pickle, Brian, and Per Christensson. 2022. “Lossless.” Definition - What is lossless compression?. https://techterms.com/definition/lossless. 
+
+## Lossy
+Lossy is when there is a loss in data or information. Lossy compression discards as much data as possible in order to make a file smaller. This is done by targeting data that is less noticeable to the human eye.[^brookes2021lossy] When compressing a file, there will be a distortion in the reconstruction of the file. Lossy compression occurs when the decompressed data is not the same as before the compression occurred.[^shukla2011lossy] 
+
+For example, JPEG is a lossy compression because the compression does affect the quality of the image.[^shukla2011lossy]
+Techniques used are called color space and Chroma subsampling. Color space reduction is when we reduce the color pixels to the most common colors found in the image. Chroma subsampling refers to when we are averaging or dropping some of the chrominance information in the image. This is because human eyes and perception are able to detect changes in brightness more sharply than color. [^lu2016lossy]
+
+Because we live in a digital era, lossy compression has its advantages in making it easier for us to send files and prioritizing / synthesizing the essential information. But it is worth noting that the more compressed a file is the more the quality of the image or sound will suffer.
+
+[^brookes2021lossy]:Brookes, Tim. 2021. “Lossy vs. Lossless Compression: What’s the Difference?” How To Geek, https://www.howtogeek.com/744381/lossy-vs-lossless-compression-whats-the-difference/. 
+[^lu2016lossy]: Lu, Zhe-Ming, and Shi-Ze Guo. 2016. Lossless information hiding in images. Elsevier Science. https://www.overdrive.com/media/3040124/lossless-information-hiding-in-images. 
+[^shukla2011lossy]:Shukla, K. K, and M. V Prasad. 2011. Lossy Image Compression : Domain Decomposition-Based Algorithms. Springerbriefs in Computer Science. London: Springer. 
+
+
 
 ##Meme
 
@@ -659,15 +850,37 @@ The easiest way to understand this term is to take it literally. The first part 
 [^Lutkevich(n.d)mobilecomputing]: Lutkevich, Ben. n.d. "Mobile Computing," TechTarget Mobile Computing, https://www.techtarget.com/searchmobilecomputing/definition/nomadic-computing.
 
 
+## Multiplatform
+
+In computing, "multiplatform" refers to software capable of running on two or more different hardware platforms. It's also known as cross-platform software, platform-agnostic software, or platform-independent software. [^Zare24multiplatform1]
+
+A "platform" can encompass the type of processor (CPU), other hardware components, or the operating system (OS) on which software operates, or a combination of these factors. [^Zare24multiplatform2]
+
+As new computing platforms emerge, software developers increasingly target multiple platforms to meet the needs of consumers who use various devices for personal and business activities like communication, banking, and shopping. [^Zare24multiplatform3]
+For instance, software available for both Windows and Mac desktop environments, or for iOS and Android mobile devices, is considered multiplatform. Similarly, an interpreter, though sharing the same source code, may have runtime engines tailored for different hardware platforms. [^Zare24multiplatform4]
+
+Cross-platform programming involves intentionally writing software to function on multiple platforms. This term can extend to video games which are compatible with various platforms, including PCs, consoles, and smartphones. [^Zare24multiplatform5]
+
+
+[^Zare24multiplatform1]: SDD Technology. "Definition of Cross-Platform." Accessed March 2, 2024. https://www.sdd-technology.com/news/definition-of-cross-platform.
+
+[^Zare24multiplatform2]: LINFO. "Platform." Accessed March 2, 2024. https://www.linfo.org/platform.html.
+
+[^Zare24multiplatform3]: Roy Choudhary, Shauvik. 2014. "Cross-platform testing and maintenance of web and mobile applications." In Companion Proceedings of the 36th International Conference on Software Engineering, pp. 102-103.
+
+[^Zare24multiplatform4]: PCMag. "Multiplatform." Accessed March 2, 2024. https://www.pcmag.com/encyclopedia/term/multiplatform.
+
+[^Zare24multiplatform5]: Hu, Hanwen, Yuan Tian, Safwat Hassan, Dayi Lin, and 2023 IEEE Conference on Games (CoG) Boston, MA, USA 2023 Aug. 21 - 2023 Aug. 24. 2023. “2023 Ieee Conference on Games (Cog).” Essay. In Analyzing Gamer Complaints in Reviews of Cross-Platform Video Games on Steam, 1–8. IEEE.    
+
 ## Natural Language Processing
 Natural Language Processing (NLP) is a broad field driven by both computerized and theoretical approaches to analyze and represent human languages.[^Chowdhary01NPL]
 
 As this topic related to Natural Language Processing (NPL) remains a very active area for research and development, many might acknowledge that a one-size-fits-all approach for definiting this field might not fit all. Altought, a commont central purpose and understanding knowledge remains including the goal of achieving human-like language processing for a various of tasks and application.[^Liddy02NPL]
 
 
-[^Chowdhary01NPL]: Chowdhary, K.R. 2020. *Fundamentals of Artificial Intelligence*. India: Springer Nature: 603-649. doi:10.1007/978-81-322-3972-7.
+[^Chowdhary01NPL]: Chowdhary, K.R. 2020. "Fundamentals of Artificial Intelligence". India: Springer Nature: 603-649. 
 
-[^Liddy02NPL]: Liddy, E.D. 2001. *Natural Language Processing*. In Encyclopedia of Library and Information Science, 2nd Ed. NY. Marcel Decker, Inc. 
+[^Liddy02NPL]: Liddy, E.D. 2001. "Natural Language Processing*. In Encyclopedia of Library and Information Science". Marcel Decker, Inc. NY. 2nd Ed. 
 
 
 ## Network Security
@@ -739,13 +952,17 @@ This system is useful for projects a variety of projects unrelated to prints. It
 
 The purpose of having two color systems is to better control the appearance of color depending on the material the designer works with. Some colors can not be produced on certain materials. The Pantone system helps designers guarantee that the end product will match the exact Pantone color swatch they chose during production.
 
-### Pantone vs CMYK
-Pantone is more costly than printing in CMYK since it requires more labor. The print technician must follow color mix specifications to achieve the exact Pantone swatch requested. This process creates a color that is solid and saturated. On the other hand, CMYK in printing separates the file into cyan, magenta, yellow and black. Dots of each colors are printed on the surface to reach the final product. This can sometimes create variations in color differing from what is seen on the computer screen.[^paperstreet09when]
+### Pantone vs [CMYK](../main/glossary.md#CMYK)
+Pantone is more costly than printing in [CMYK](../main/glossary.md#CMYK) since it requires more labor. The print technician must follow color mix specifications to achieve the exact Pantone swatch requested. This process creates a color that is solid and saturated. On the other hand, [CMYK](../main/glossary.md#CMYK) in printing separates the file into cyan, magenta, yellow and black. Dots of each colors are printed on the surface to reach the final product. This can sometimes create variations in color differing from what is seen on the computer screen.[^paperstreet09when]
 
-Using the Pantone system is good for printing projects that do not have many colors. It also allows designers to print colors unachievable with CMYK such as gold, silver and neon colors. However, CMYK can also do a decent print job, especially for projects with color photography. It is up to the designer to decide which system better suits their project.
+Using the Pantone system is good for printing projects that do not have many colors. It also allows designers to print colors unachievable with [CMYK](../main/glossary.md#CMYK) such as gold, silver and neon colors. However, [CMYK](../main/glossary.md#CMYK) can also do a decent print job, especially for projects with color photography. It is up to the designer to decide which system better suits their project.
+
+### Pantone in New Media Art
+The Pantone color system promises artists consistency in their color palettes throughout the various formats of their projects. This allows the artist to be confident in the accuracy of their color whether digitally or printed, regardless of the material. The color system is available on industry-approved applications like the Adobe Suite used in many media production.[^rhyne17applying] 
 
 [^pantone24what]: Pantone. 2024. "What Are Pantone Color Systems?" Accessed January 17, 2024. https://www.pantone.com/color-systems/pantone-color-systems-explained.
 [^paperstreet09when]: PaperStreet. 2009. "When to Use CMYK colors v. Pantone colors." Accessed January 17, 2024. https://www.paperstreet.com/blog/why-you-need-to-know-cmyk-colors-v-pantone-colors/.
+[^rhyne17applying]: Rhyne, Theresa-Marie. 2017. "Applying Color Theory to Digital Media and Visualization." Accessed February 26, 2024. https://dl.acm.org/doi/pdf/10.1145/3027063.3076594. 
 ## Pattern Recognition
 
 Pattern Recogntion is a machine learning process in which the computer is fed a large pool of data that they will attempt to find regularities in order to automatically recognise the content. This recognition can be applied to any form of media whether it be text, images, sounds and much more. It is also expected that the algorithm can "recognize and classify unfamiliar objects, recognize shapes and objects from different angles, and identify patterns and objects even if they’re partially obscured."[^citation1]
@@ -760,18 +977,26 @@ Other practical applications of pattern recognition can be found in every day li
 
 ## Posthuman
 
-The posthuman is a broad concept defined by two differing - and at times contradicting - schools of thought: the posthuman as "a category that attempts to capture some future configuration"[^rugo20posthuman] and the posthuman as "a condition."[^rugo20posthuman]
-
-On one hand, the posthuman is a subject of human enhancement characterized by at least one capacity that transcends human limitations, unaided by modern technology[^bostrom06posthuman]. This view implies the use of advanced technology, genetic manipulation, and biointervention [^cohen21posthuman] to bring to life such 'advancements' to the human being. On the other hand, the posthuman is also conceived as a critique of humanism, the centralization of the human amongst non-humans, and the idea of man as a measure of all things. Unlike the former school of thought, which seeks to further human superiority - "an extension of rational mastery"[^rugo20posthuman], this philosophical framework "promotes horizontal ontologies and expanded ethics."[^rugo20posthuman]
-
 ![Posthuman](images/posthuman-hoang.jpg)
 
+The posthuman is a broad concept defined by two differing - and at times contradicting - schools of thought: the posthuman as "a category that attempts to capture some future configuration"[^rugo20posthuman] and the posthuman as "a condition."[^rugo20posthuman] 
 
-[^bostrom06posthuman]: Bostrom, Nick. Why I want to be a posthuman when I grow up. 2006. https://nickbostrom.com/posthuman.pdf. 
+On one hand, the posthuman is a subject of human enhancement characterized by at least one capacity that transcends human limitations, unaided by modern technology[^bostrom06posthuman]. This view implies the use of advanced technology, genetic manipulation, and biointervention [^cohen21posthuman] to bring to life such 'advancements' to the human being. Swedish philosopher and writer Nick Bostrom outlines three general capabilities that, if achieved at greater heights than human's capabilities, would define the posthuman: health (to maintain physical and mental health), cognition (general intellect and other special faculties), and emotion (to enjoy life and 'properly' respond to life).[^bostrom06posthuman]
+
+On the other hand, the posthuman is also conceived as a critique of humanism, of the centralization of the human amongst non-humans, and of the idea of man as a measure of all things. Unlike the former school of thought, which seeks to further human superiority - viewing the posthuman as "an extension of rational mastery"[^rugo20posthuman], this philosophical framework "promotes horizontal ontologies and expanded ethics."[^rugo20posthuman] 
+
+However, both ends compel self-reflection, positing a need to renew the existing definition of human in relation to other beings, to question what makes up the human body and mind, that is critical to define the future human, the posthuman. Judith Halberstam and Ira Livingston, in defining posthuman bodies, recall Donna Haraway's "one is too few, two is too many" with respect to her cyborg in order to argue that assemblages should priviledge "someness" over our current "mind-body dualism with a heterogeneous monism" in which "someness" isn't a quantity in waiting, but rather threads the line between the numerable and inumerable.[^halberstamLivingston95posthuman] As the relationship between human and non-human - machine, notably - exponentially develops thus blurring the lines between the two in a symbiosis, and as the human body and mind become increasingly hybrid, posthuman discourse (from both schools of thought) becomes increasingly pressing. 
+
+
+[^bostrom06posthuman]: Bostrom, Nick. “Why I Want to Be a Posthuman When I Grow Up.” Medical Enhancement and Posthumanity, n.d., 107–36. https://doi.org/10.1007/978-1-4020-8852-0_8. 
 
 [^cohen21posthuman]: Cohen, David. “What Does It Mean to Be Posthuman?” New Scientist, March 9, 2021. https://www.newscientist.com/article/mg21829162-400-what-does-it-mean-to-be-posthuman/. 
 
-[^rugo20posthuman]: Rugo, Daniele. "Posthuman." Oxford Research Encyclopedia of Literature. 30 July 2020. https://oxfordre.com/literature/view/10.1093/acrefore/9780190201098.001.0001/acrefore-9780190201098-e-1136.
+[^rugo20posthuman]: Rugo, Daniele. “Posthuman.” Oxford Research Encyclopedia of Literature, July 30, 2020. https://doi.org/10.1093/acrefore/9780190201098.013.1136. 
+
+[^lewis21posthuman]: Lewis, Richard S. Technology, Media Literacy, and the human subject, June 3, 2021. https://doi.org/10.11647/obp.0253. 
+
+[^halberstamLivingston95posthuman]: Halberstam, Judith M., and Ira Livingston, eds. Posthuman bodies. Indiana University Press, 1995.
 
 ## Quantum Computing
 Quantum Computing is an emerging type of computing that utilizes principles of quantum mechanics to expedite certain processes and calculations, faster than classical computing. A key principle in the difference between quantum and classical computing is qubits. Like bits, a qubit can be in 2 states, a 0 or a 1. However, operating under quantum mechanics, a qubit can be in a third state called superposition. This essentially means that, before being measured, a qubit exists in the states of 0 and 1 simultaneously[^mcmahon08quantum]. This allows the quantum computers to process multiple calculations concurrently and sort databases with optimized algorithms which accelerates the processing speed. This function is called parallelism[^gruska99quantum]. 
@@ -954,7 +1179,7 @@ UX, also known as UX design or User Experience, is a concept in the field of hum
 
 Version Control Systems (VCS) are a type of [software](./software.md) used in programming. Their purpose is to help manage code during the development of a project so as to ensure a proper workflow and effort coordination in the development team.
 
-Namely, it keeps track of every change made in the project and by whom, it allows the possibility to protect certain versions of the code from being edited directly, and lets people work on different "branches" of the same code before merging them together, usually after being reviewed by at least another person. It's also useful when trying to find bugs in the code that appear in later versions by comparing it to older ones.[^Atlassian-VCS]
+Namely, it keeps track of every change made in the project and by whom, it allows the possibility to protect certain versions of the code from being edited directly and lets the code updates get reviewed by at least another person before being merged into the rest of. It's also useful when trying to find bugs in the code that appear in later versions by comparing it to older ones.[^Atlassian-VCS]
 
 ### Types of VCS
 
@@ -966,7 +1191,7 @@ Alternatively, CVCS require a constant connection to the server to have access t
 
 ### Examples of version control systems
 
-- Git - DVCS
+- [Git](./git.md) - DVCS
 - Bitbucket - DVCS
 - Mercurial - DVCS
 - Subversion - CVCS
@@ -1005,6 +1230,20 @@ Virtual environments are the technology which facilitates interactions between u
 [^ve2]: Mine, Mark R. 1995. “Virtual Environment Interaction Techniques.”
 [^ve3]: Youngblut, Christine, Rob E Johnston, Sarah H Nash, Ruth A Wienclaw, and CraigA Will. n.d. “REVIEW OF VIRTUAL ENVIRONMENT INTERFACE TECHNOLOGY.”
 
+## Wearable Technology
+
+Wearable technology - also referred to as 'wearables' - encapsulates all wireless devices incorporated in consumers' everyday accessories and clothing. Although originally referring to items that can be worn (and sequentially, removed), new technological advancements have redefined the term to include more invasive forms of wearable technology, such as implanted microchips and smart tattoos[^ometov21wearableTech]. 
+
+The market for wearable technology is rising exponentially as it allows the seamless incorporation of computers and electronics such as handheld mobile devices into people's lives. Common examples of such technology are tracking bracelets and smartwatches, which utilise sensors to track users' biometrics[^ferreira21wearableTech]. On top of lending improvements to people's everyday lives, they are also useful in numerous other domains, such as health care, fitness, education, finance, and gaming[^wright14wearableTech].
+
+Wearables have developed a 'smartphone-like experience'[^ometov21wearableTech], allowing users to handle 'calls, emails, texts, and many other alerts without even getting the bulky devices out'[^ometov21wearableTech]. As they continue to evolve, industry analyst Walt Maclay argues that they will further absorb our personal lives, 'taking existing wearables such as eyeglasses, watches, hear-ing aids, and jewelry, and enhancing them with sensors'[^wright14wearableTech]. This falls in junction with new media theory; The virtualization and digitization of our reality - of our body - through wearable technology. Wearables are a prime instance of technology becoming further abstracted, blurring the lines between what is and isn't machine by incorporating it on (and in) our bodies. 
+
+
+[^ferreira21wearableTech]: Ferreira, João J., Cristina I. Fernandes, Hussain G. Rammal, and Pedro M. Veiga. “Wearable Technology and Consumer Interaction: A Systematic Review and Research Agenda.” Computers in Human Behavior 118 (May 2021): 106710. https://doi.org/10.1016/j.chb.2021.106710. 
+
+[^ometov21wearableTech]: Ometov, Aleksandr, Viktoriia Shubina, Lucie Klus, Justyna Skibińska, Salwa Saafi, Pavel Pascacio, Laura Flueratoru, et al. “A Survey on Wearable Technology: History, State-of-the-Art and Current Challenges.” Computer Networks 193 (July 2021): 108074. https://doi.org/10.1016/j.comnet.2021.108074. 
+
+[^wright14wearableTech]: Wright, Robin, and Latrina Keith. “Wearable Technology: If the Tech Fits, Wear It.” Journal of Electronic Resources in Medical Libraries 11, no. 4 (October 2, 2014): 204–16. https://doi.org/10.1080/15424065.2014.969051. 
 
 ## Wiki
 
